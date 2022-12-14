@@ -44,19 +44,6 @@ struct ContentView: View {
             }
     }
     
-    
-
-    
-//    let model: MobileNetV2 = {
-//        do {
-//            let config = MLModelConfiguration()
-//            return try MobileNetV2(configuration: config)
-//        } catch {
-//            print(error)
-//            fatalError("No se ha podido realizar la solicitud")
-//        }
-//    }()
-    
     var body: some View {
         Color(red: 48/255, green: 49/255, blue: 54/255)
             .ignoresSafeArea()
